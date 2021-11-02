@@ -1,0 +1,16 @@
+@import url("../css/awesome.css");
+@import url("../css/import-cdn.css");
+@import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.html {
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+}

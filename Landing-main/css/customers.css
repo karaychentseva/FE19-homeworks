@@ -1,0 +1,142 @@
+.customers {
+    padding: 100px 0;
+}
+
+.customers-container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+.customers-title {
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    line-height: 42px;
+    color: #212121;
+    margin-bottom: 34px;
+}
+
+.customers-title::after{
+    content:"";
+    width: 64px;
+    height: 1px;
+    background-color: #E72424;
+    margin: auto;
+    margin-bottom: 34px;
+    margin-top: 34px;
+    display: block;
+} 
+
+.customers-description {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878b;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.customers-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.customers-item {
+    margin: 0 15px;
+    width: 298px;
+}
+
+.customer-item__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    background: #E2E2E2;
+    border-radius: 7px;
+    padding-top: 9px;
+    padding-bottom: 6px;
+    padding-left:22px;
+    padding-right: 23px;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.customer-item__text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 45px;
+    bottom: -15px;
+
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid #E2E2E2;
+    transform: rotate(180deg);
+
+}
+
+.customers-item__person {
+    display: flex;
+}
+
+.customers-item__img {
+}
+
+.customers-item__photo {
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.customers-item__position {
+    margin-left: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.name {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.position {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
