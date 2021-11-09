@@ -1,6 +1,6 @@
 .pricing {
   background: #f5f5f5;
-  padding: 100px 0;
+  padding: 80px 0 59px;
 }
 .pricing-container {
   max-width: 1170px;
@@ -53,7 +53,16 @@
   margin: 0 15px;
   width: 340px;
   align-items: flex-start;
+  transition: 0.2s;
 }
+
+.pricing-card:hover {
+  box-shadow: 0 0 25px 0 rgba(10, 10, 10, 0.3);
+  transform: translate(1px, -10px);
+}
+
+
+
 .pricing-card__item-tariff {
   background-color: #333333;
   color: white;
