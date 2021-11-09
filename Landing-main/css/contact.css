@@ -108,4 +108,5 @@
     text-transform: capitalize;
     border: none;
     margin: auto;
+    cursor: pointer;
 }
