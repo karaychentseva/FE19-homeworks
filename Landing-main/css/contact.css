@@ -78,8 +78,8 @@
     border-bottom: 1px solid #BDBDBD;
     width: 100%;
     outline: none;
-    /*height: 35px;*/
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 16px;
 }
 
 .form-content-right {
@@ -93,6 +93,7 @@
     outline: none;
     height: 173px;
     resize: none;
+    font-size: 16px;
 }
 
 .contact-button {
