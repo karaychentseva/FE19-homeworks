@@ -2,11 +2,6 @@
     padding: 80px 0 119px;
 }
 
-.customers-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-}
 .customers-title {
     text-transform: uppercase;
     font-family: "Raleway";
@@ -79,7 +74,6 @@
     position: absolute;
     left: 45px;
     top: 100%;
-
     width: 0; 
     height: 0; 
     border-left: 15px solid transparent; 

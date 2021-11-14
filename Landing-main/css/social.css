@@ -3,12 +3,6 @@
     background-color: #F8EFEF;
 }
 
-.social-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-}
-
 .social-wrap {
     display: flex;
     align-items: center;
@@ -55,16 +49,9 @@
     
 }
 
-.social-icons__link{
-    
-}
-
-
-
 .social-icon__link-item{
     color: #86878B;
 }
-
 
 .fa-facebook-f:hover {
     color: #3B5998;
@@ -80,7 +67,6 @@
 
 .fa-pinterest:hover {
     color: #c8232c;
-
 }
 
 .fa-instagram-square:hover {
@@ -92,7 +78,6 @@
 .fa-stumbleupon:hover {
     color: #f74425;
 }
-
 
 .fa-rss:hover {
     color: #ee802f;

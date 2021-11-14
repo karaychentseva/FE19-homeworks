@@ -5,7 +5,6 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    
 }
 
 .axure::after {
@@ -18,15 +17,6 @@
     left: 0;
     background: rgba(0, 0, 0, 0.55);
     z-index: 1;   
-
-}
-
-.axure-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-    z-index: 2;
-    position: relative;
 }
 
 .axure-title {
@@ -37,8 +27,7 @@
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 
 .axure-title::after{
@@ -100,7 +89,6 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-
     color: #FFFFFF;
     display: block;
     }
@@ -111,8 +99,7 @@
 
 .axure-link:hover .axure-link__item {
     color:rgba(0, 0, 0, 0.55);
-    
-     }
+    }
 
 
 

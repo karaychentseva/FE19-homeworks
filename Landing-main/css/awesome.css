@@ -2,12 +2,6 @@
     padding: 80px 0 116px;
 }
 
-.awesome-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-}
-
 .awesome-title {
     text-transform: uppercase;
     font-family: "Raleway";
@@ -30,7 +24,6 @@
     margin-top: 34px;
     display: block;
 } 
-
 
 .awesome-description {
     font-family: "Open Sans";
@@ -69,7 +62,6 @@
     color: #EC7979;
 }
 
-
 .awesome-inner-image {
     margin: auto;
 }
@@ -82,8 +74,8 @@
     color: #333333;
     text-align: center;
     margin-bottom: 16px;
-
 }
+
 .awesome-item-text {
     font-family: Open Sans;
     font-style: normal;

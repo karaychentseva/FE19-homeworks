@@ -1,12 +1,9 @@
 .header {
     padding: 20px 0 19px;
     background-color: #000000;
-}
-
-.header-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .header-wrap {
@@ -52,9 +49,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.header-menu__item {
 }
 
 .header-menu__item-link {

@@ -3,12 +3,6 @@
     background-color: #000000;
 }
 
-.footer-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-}
-
 .footer-wpap {
     display: flex;
     flex-direction: column;
@@ -27,9 +21,6 @@
     width: 317px;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.footer-social-icon__item {
 }
 
 .footer-social-con__item-link {

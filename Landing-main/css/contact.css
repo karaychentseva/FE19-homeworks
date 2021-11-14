@@ -2,15 +2,6 @@
     padding: 80px 0 44px;
 }
 
-.contact-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-}
-
-.contact-info {
-}
-
 .contact-title {
     font-family: "Raleway";
     font-style: normal;
@@ -44,9 +35,6 @@
     margin-bottom: 91px;
 }
 
-.contact-form {
-}
-
 .contact-form-content {
     display: flex;
     justify-content: space-between;
@@ -54,8 +42,7 @@
 }
 
 .form-content-left {
-    width: 50%;
-    margin-right: 222px;
+    width: 40%;
 }
 
 .form-content__item {
@@ -83,7 +70,7 @@
 }
 
 .form-content-right {
-    width: 50%;
+    width: 40%;
 }
 
 .form-content__textarea {
@@ -91,9 +78,10 @@
     border-bottom: 1px solid #BDBDBD;
     width: 100%;
     outline: none;
-    height: 173px;
+    height: 191px;
     resize: none;
     font-size: 16px;
+    padding-top: 10px;
 }
 
 .contact-button {
@@ -109,4 +97,9 @@
     border: none;
     margin: auto;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact-button:hover {
+    background-color: #f10e0e;
 }

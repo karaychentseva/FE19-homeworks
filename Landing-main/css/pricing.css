@@ -2,11 +2,6 @@
   background: #f5f5f5;
   padding: 80px 0 59px;
 }
-.pricing-container {
-  max-width: 1170px;
-  margin: auto;
-  padding: 0 15px;
-}
 
 .pricing-title {
   text-transform: uppercase;
@@ -61,8 +56,6 @@
   transform: translate(1px, -10px);
 }
 
-
-
 .pricing-card__item-tariff {
   background-color: #333333;
   color: white;
@@ -74,6 +67,7 @@
   text-align: center;
   margin-bottom: 1px;
 }
+
 .pricing-card__item-cost {
   background-color: #333333;
   color: white;
@@ -85,6 +79,7 @@
   text-align: center;
   margin-bottom: 2px;
 }
+
 .pricing-card__item-description {
   background-color: #333333;
   font-family: Open Sans;
@@ -96,6 +91,7 @@
   color: rgba(255, 255, 255, 0.5);  
   margin-bottom: 4px;
 }
+
 .pricing-card__item {
   font-family: Open Sans;
   font-style: normal;
