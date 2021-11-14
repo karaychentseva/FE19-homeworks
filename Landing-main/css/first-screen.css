@@ -5,7 +5,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .first-screen::after {
@@ -23,7 +23,7 @@
 .first-screen-wrap {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0 -15px;
 }
 
@@ -37,7 +37,7 @@
     text-transform: uppercase;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 70px;
     color: #FFFFFF;
 }
@@ -48,7 +48,7 @@
     text-transform: uppercase;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 70px;
     color: #E72424;
 }
@@ -58,7 +58,7 @@
     text-transform: uppercase;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 42px;
     color: #FFFFFF;
     margin-top: 32px;
@@ -78,7 +78,7 @@
     font-family: Raleway;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.8);
     width: 282px;
@@ -91,6 +91,7 @@
     text-align: center;
     cursor: pointer;
     margin-top: 39px;
+    border-radius: 5px;
 }
 
 .first-screen-link__item {
@@ -118,6 +119,9 @@
     background: #FFFFFF;
     border-radius: 8px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .form-content {
@@ -127,7 +131,7 @@
 .form-content__title {
     font-family: "Open Sans";
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
     align-items: center;
     text-align: center;
@@ -139,7 +143,7 @@
 .form-content__title-item {
     font-family: "Open Sans";
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
     text-transform: uppercase;
     color: #EC7979;
@@ -150,7 +154,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     align-items: center;
     color: #BDBDBD;
@@ -176,8 +180,8 @@
     color: #FFFFFF;
     font-family: Open Sans;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 26px;
     text-align: center;
     text-transform: capitalize;
     border: none;
@@ -186,4 +190,98 @@
 
 .form-button:hover {
     background-color: #f10e0e;
+}
+
+@media (max-width: 1024px) {
+    .first-screen {
+        padding: 55px 0;
+    }
+    .first-screen-info {
+        width: 514px;
+    }
+    .first-screen__title {
+        margin-top: 28px;
+    }
+    .first-screen__title::after {
+        margin-bottom: 28px;
+        margin-top: 28px;
+    }
+    .first-screen-form {
+        width: 350px;
+    }
+    .form-content {
+        padding: 20px 44px 54px;
+    }
+}
+
+@media (max-width: 840px) {
+    .form-content {
+        padding: 17px 36px 41px;
+    }
+    .first-screen-info {
+        width: 460px;
+    }
+    .first-screen__title {
+        line-height: 35px;
+    }
+    .first-screen-form {
+        width: 330px;
+    }
+    .form-button {
+        line-height: 20px;
+    }
+    .first-screen-link__item {
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 680px) {
+    .first-screen-wrap {
+        flex-wrap: wrap;
+    }
+    .first-screen-wrap {
+        justify-content: space-around;
+    }
+    .first-screen-info {
+        text-align: center;
+    }
+    .first-screen-form {
+        margin-top: 20px;
+    }
+    .first-screen__description {
+        margin: 0 auto;
+    }
+    .first-screen__title::after {
+        margin: 20px auto;
+    }
+    .first-screen__link {
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 360px) {   
+    .first-screen {
+        padding: 30px 0;
+    } 
+    .first-screen__logo {
+        display: none;
+    }
+    .first-screen__title {
+        line-height: 30px;
+    }
+    .first-screen__description {
+        line-height: 16px;
+    }
+    .first-screen__link {
+        width: 90%;
+    }
+    .first-screen-link__item {
+        font-weight: 400;
+    }
+    .form-content__title {
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 320px) {
 }
