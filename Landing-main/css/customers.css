@@ -7,11 +7,10 @@
     font-family: "Raleway";
     font-weight: normal;
     font-style: normal;
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
     line-height: 42px;
     color: #212121;
-    margin-bottom: 34px;
 }
 
 .customers-title::after{
@@ -29,7 +28,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #86878b;
     text-align: center;
@@ -52,7 +51,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     display: flex;
     align-items: center;
@@ -114,7 +113,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
     display: flex;
     align-items: center;
@@ -127,10 +126,93 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     display: flex;
     align-items: center;
     text-align: center;
     color: #86878B;
+}
+
+
+@media (max-width: 1024px) {
+    .customers {
+        padding: 75px 0 114px;
+    }
+    .customers-wrap {
+        justify-content: space-around;
+    }
+    .customers-wrap .customers-item:last-child {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 936px) {
+    .customers-title::after{
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    .customers-description {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 728px) {
+    .customers-item {
+        margin-bottom: 40px;
+    }
+    .customers-wrap .customers-item:last-child {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 680px) {
+    .customers-item__person {
+        width: 198px;
+    }
+    .name {
+        margin-bottom: 8px;
+    }
+    .customers-item__position {
+        margin-left: 35px;
+    }
+    
+}
+@media (max-width: 466px) {
+    .customers-title {
+        line-height: 38px;
+    }
+    .customers-title::after{
+        width: 54px;
+    }
+    .customers-description {
+        margin-bottom: 45px;
+    }
+    .customers-item__img {
+        width: 60px;
+        height: 60px;
+    }
+    .customers-item__position {
+        margin-left: 20px;
+    }
+    .customer-item__text {
+        line-height: 18px;
+        padding-top: 7px;
+        padding-bottom: 5px;
+        padding-left: 17px;
+        padding-right: 18px;
+        margin-bottom: 18px;
+    }
+    .customers-item {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 360px) {   
+    .customers {
+        padding: 70px 0 109px;
+    }
+    .customers-title::after{
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
 }

@@ -6,7 +6,6 @@
 .social-wrap {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 -15px;
 }
@@ -21,7 +20,7 @@
     text-transform: capitalize;
     font-weight: bold;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
     color: #333333;
     margin-bottom: 15px;
@@ -31,7 +30,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #86878B;
 }
@@ -46,6 +45,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 42px;
+    margin: auto;
     
 }
 
@@ -81,4 +81,46 @@
 
 .fa-rss:hover {
     color: #ee802f;
+}
+@media (max-width: 1024px) {
+.social-icon__link-item{
+        font-size: 36px;
+    } 
+}
+@media (max-width: 840px) {
+    .social-wrap {
+        flex-wrap: wrap;
+    }
+    .social-info {
+        margin: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .social-title {
+        margin-bottom: 8px;
+    }
+    .social-icons-wrap {
+        margin: auto;
+    }
+    .social-icon__link-item{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 680px) {
+    .social {
+        padding: 17px 0 16px;
+    }
+    .social-icon__link-item {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    .social {
+        padding: 10px 0 9px;
+    }
+    .social-icon__link-item{
+        font-size: 20px;
+    }
 }

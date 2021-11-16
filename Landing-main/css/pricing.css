@@ -8,11 +8,10 @@
   font-family: "Raleway";
   font-weight: normal;
   font-style: normal;
-  font-size: 36px;
+  font-size: 2.25rem;
   text-align: center;
   line-height: 42px;
   color: #212121;
-  margin-bottom: 34px;
 }
 
 .pricing-title::after{
@@ -30,7 +29,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
   color: #86878b;
   text-align: center;
@@ -59,10 +58,10 @@
 .pricing-card__item-tariff {
   background-color: #333333;
   color: white;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 50px;
   text-align: center;
   margin-bottom: 1px;
@@ -71,10 +70,10 @@
 .pricing-card__item-cost {
   background-color: #333333;
   color: white;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 2.1875rem;
   line-height: 100px;
   text-align: center;
   margin-bottom: 2px;
@@ -82,10 +81,10 @@
 
 .pricing-card__item-description {
   background-color: #333333;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 40px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);  
@@ -93,13 +92,120 @@
 }
 
 .pricing-card__item {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 40px;
   text-align: center;
   color: #86878b;
   margin-bottom: 4px;
   background-color: white;
+}
+
+@media (max-width: 1110px) {
+  .pricing-wrap {
+    justify-content: space-around;
+  }
+  .pricing-wrap .pricing-card:last-child {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pricing {
+    padding: 75px 0 54px;
+  }
+
+}
+
+@media (max-width: 840px) {
+  .pricing-title {
+    line-height: 40px;
+  }
+  .pricing-title::after{
+    margin-bottom: 28px;
+    margin-top: 28px;
+  } 
+  .pricing-description {
+    margin-bottom: 50px;
+  }
+  .pricing-card {
+    width: 300px;
+  }
+  .pricing-card__item-tariff {
+    line-height: 45px;
+  }
+  .pricing-card__item-cost {
+    line-height: 95px;
+  }
+  .pricing-card__item-description {
+    line-height: 35px;
+    margin-bottom: 4px;
+  }
+  .pricing-card__item {
+    line-height: 35px;
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 732px) {
+  .pricing-card {
+    margin-bottom: 30px;
+  }
+  .pricing-wrap .pricing-card:last-child {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 680px) {
+  .pricing-title::after{
+    margin-bottom: 23px;
+    margin-top: 23px;
+  } 
+  .pricing-card {
+    width: 280px;
+  }
+}
+@media (max-width: 466px) {
+  .pricing-title::after{
+    width: 54px;
+  }
+  .pricing-card {
+    width: 250px;
+  }
+  .pricing-card__item-tariff {
+    line-height: 40px;
+  }
+  .pricing-card__item-cost {
+    line-height: 90px;
+  }
+  .pricing-card__item-description {
+    line-height: 30px;
+    margin-bottom: 3px;
+  }
+  .pricing-card__item {
+    line-height: 30px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 360px) { 
+  .pricing {
+    padding: 65px 0 44px;
+  }  
+  .pricing-title::after{
+    margin-bottom: 18px;
+    margin-top: 18px;
+  } 
+  .pricing-card {
+    width: 230px;
+  }
+  .pricing-card__item-tariff {
+    line-height: 30px;
+  }
+  .pricing-card__item-cost {
+    line-height: 70px;
+    margin-bottom: 1px;
+  }
 }

@@ -169,9 +169,10 @@
     margin-bottom: 19px;
 }
 
-.first-screen-form-content__item:last-of-type .form-item__input{
+.form-content .first-screen-form-content__item:last-child .form-item__input {
     margin-bottom: 0;
 }
+
 
 .form-button {
     width: 100%;
@@ -283,5 +284,3 @@
     }
 }
 
-@media (max-width: 320px) {
-}

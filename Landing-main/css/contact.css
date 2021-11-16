@@ -6,7 +6,7 @@
     font-family: "Raleway";
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
@@ -28,7 +28,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #86878B;
     text-align: center;
@@ -53,7 +53,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #BDBDBD;
     text-transform: capitalize;
@@ -66,7 +66,7 @@
     width: 100%;
     outline: none;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .form-content-right {
@@ -80,7 +80,7 @@
     outline: none;
     height: 191px;
     resize: none;
-    font-size: 16px;
+    font-size: 1rem;
     padding-top: 10px;
 }
 
@@ -91,7 +91,7 @@
     color: #FFFFFF;
     font-family: "Open Sans";
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     text-transform: capitalize;
     border: none;
@@ -102,4 +102,78 @@
 
 .contact-button:hover {
     background-color: #f10e0e;
+}
+
+
+@media (max-width: 844px) {
+    .contact {
+        padding: 70px 0 44px;
+    }
+    .contact-title::after {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .contact-form-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-content-left {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .form-content-right {
+        width: 80%;
+    }
+    .contact-description {
+        margin-bottom: 81px;
+    }
+    .form-content__item {
+        margin-bottom: 27px;
+    }
+    .form-content__textarea {
+        height: 171px;
+    }
+}
+
+@media (max-width: 680px) {
+    .form-content__item {
+        margin-bottom: 22px;
+    }
+    .form-content__textarea {
+        height: 161px;
+    }
+}
+@media (max-width: 466px) {
+    .contact-title::after {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 54px;
+    }
+    .contact-description {
+        margin-bottom: 71px;
+    }
+    .form-content__textarea {
+        height: 151px;
+    }
+}
+
+@media (max-width: 360px) {   
+    .contact {
+        padding: 60px 0 40px;
+    }
+    .contact-description {
+        margin-bottom: 51px;
+    }
+    .form-content-left {
+        margin-bottom: 25px;
+    }
+    .form-content__input {
+        line-height: 24px;
+    }
+    .form-content__textarea {
+        height: 121px;
+    }
+    .contact-button {
+        padding: 10px 27px;
+    }
 }

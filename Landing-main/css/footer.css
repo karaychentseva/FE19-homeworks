@@ -18,6 +18,8 @@
 
 .footer-social-icons {
     display: flex;
+    max-width: 317px;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -37,4 +39,27 @@
     color: rgba(255, 255, 255, 0.5);
     margin: 0 15px;
     margin-top: 18px;
+}
+
+@media (max-width: 1139px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 844px) {
+   
+}
+
+@media (max-width: 680px) {
+    
+}
+@media (max-width: 466px) {
+    
+}
+
+@media (max-width: 360px) {   
+    
 }
