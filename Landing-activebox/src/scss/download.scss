@@ -1,0 +1,117 @@
+.download {
+    padding: 100px 0 114px;
+
+    @media (max-width: 1024px) {
+        padding: 80px 0;
+    }
+    @media (max-width: 870px) {
+        padding: 60px 0;
+    }
+    @media (max-width: 650px) {
+        padding: 50px 0;
+    }
+    @media (max-width: 400px) {
+        padding: 40px 0 50px;
+    }
+    @media (max-width: 320px) {
+        padding: 35px 0 45px;
+    }
+
+    &-title {
+        font-family: "Raleway";
+        font-weight: 500;
+        font-size: 1.875rem;
+        line-height: 35px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 30px;
+
+        @media (max-width: 1024px) {
+            font-size: 1.5rem;
+            line-height: 28px;
+        }
+        @media (max-width: 850px) {
+            margin-bottom: 25px;
+        }
+        @media (max-width: 320px) {
+            font-size: 1.3rem;
+            line-height: 21px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &-description {
+        font-family: "Raleway";
+        font-weight: bold;
+        font-size: 1.125rem;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 50px;
+
+        @media (max-width: 1024px) {
+            font-size: 0.875rem;
+            line-height: 16px;
+        }
+        @media (max-width: 850px) {
+            margin-bottom: 45px;
+        }
+        @media (max-width: 550px) {
+            margin-bottom: 30px;
+        }
+        @media (max-width: 350px) {
+            font-size: 0.8125rem;
+            line-height: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &-link {
+        max-width: 370px;
+        padding: 26px 11px;
+        text-align: center;
+        cursor: pointer;
+        background-color: #FF4343;
+        margin: auto;
+
+        @media (max-width: 1024px) {
+
+        }
+        @media (max-width: 800px) {
+            max-width: 360px;
+            padding: 24px 11px;
+        }
+        @media (max-width: 635px) {
+            max-width: 320px;
+            padding: 22px 11px;
+        }
+        @media (max-width: 400px) {
+            padding: 18px 11px;
+        }
+
+        &__item {
+            font-family: "Raleway";
+            font-weight: 900;
+            font-size: 1.5rem;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+            @media (max-width: 1024px) {
+                font-size: 1.125rem;
+                line-height: 21px;
+            }
+        }
+
+        &:hover {
+            background-color: #E71414;
+        }
+
+        &:active {
+            background: #FF4343;
+            box-shadow: 4px 4px 30px #FF4343;
+        }
+    }
+}
